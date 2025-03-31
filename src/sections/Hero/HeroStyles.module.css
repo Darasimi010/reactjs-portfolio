@@ -52,3 +52,27 @@
         box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
     }
 }
+
+.colorModeContainer {
+    position: relative;
+}
+
+.colorMode {
+    position: absolute;
+    right: 0;
+    width: 25px;
+}
+
+.colorMode:hover {
+    cursor: pointer;
+}
+
+.description {
+    max-width: 24ch;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

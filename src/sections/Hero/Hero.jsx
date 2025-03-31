@@ -14,10 +14,10 @@ import { useTheme } from "../../common/ThemeContext";
 function Hero() {
   const { theme, toggleTheme } = useTheme();
 
-  const themeIcon = theme === 'light' ? sun : moon;
-  const twitterIcon = theme === 'light' ? twitterLight : twitterDark;
-  const githubIcon = theme === 'light' ? githubLight : githubDark;
-  const linkedinIcon = theme === 'light' ? linkedinLight : linkedinDark;
+  const themeIcon = theme === "light" ? sun : moon;
+  const twitterIcon = theme === "light" ? twitterLight : twitterDark;
+  const githubIcon = theme === "light" ? githubLight : githubDark;
+  const linkedinIcon = theme === "light" ? linkedinLight : linkedinDark;
 
   return (
     <section id="hero" className={styles.container}>
@@ -50,7 +50,7 @@ function Hero() {
             <img src={linkedinIcon} alt="Linkedin icon" />
           </a>
         </span>{" "}
-        <p>
+        <p className={styles.description}>
           With a passion for developing modern React web apps for commercial
           businesses.
         </p>{" "}
