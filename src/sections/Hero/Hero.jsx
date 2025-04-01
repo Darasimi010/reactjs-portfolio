@@ -49,11 +49,11 @@ function Hero() {
           <a href="http://linkedin.com/" target="_blank">
             <img src={linkedinIcon} alt="Linkedin icon" />
           </a>
-        </span>{" "}
+        </span>
         <p className={styles.description}>
           With a passion for developing modern React web apps for commercial
           businesses.
-        </p>{" "}
+        </p>
         <a href={CV} download>
           <button className="hover">Resume</button>
         </a>
