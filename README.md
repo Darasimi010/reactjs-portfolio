@@ -26,7 +26,7 @@ To run this project locally, follow these steps:
 1.  **Clone the repository:**
 
     ```bash
-    git clone [https://github.com/Darasimi010/reactjs-portfolio.git](https://github.com/Darasimi010/reactjs-portfolio.git)
+    git clone https://github.com/Darasimi010/reactjs-portfolio.git
     ```
 
 2.  **Navigate to the project directory:**
@@ -44,10 +44,10 @@ To run this project locally, follow these steps:
 4.  **Start the development server:**
 
     ```bash
-    npm start # or yarn start
+    npm run dev
     ```
 
-5.  Open your browser and navigate to `http://localhost:3000`.
+5.  Open your browser and navigate to `http://localhost:5173`.
 
 ## Deployment
 
@@ -55,7 +55,7 @@ This portfolio is deployed on Netlify. You can view it live at: https://reactpor
 
 ## Author
 
-* Darasimi010 - [https://github.com/Darasimi010/](https://github.com/Darasimi010/)
+* Darasimi010 - https://github.com/Darasimi010
 
 ## Reference
 * www.youtube.com/@howtobecomeadeveloper
