@@ -1,8 +1,10 @@
 import styles from "./ProjectsStyles.module.css";
-import viberr from "../../assets/viberr.png";
-import freshBurger from "../../assets/fresh-burger.png";
-import hipsster from "../../assets/hipsster.png";
-import fitlift from "../../assets/fitlift.png";
+import portfolio from "../../assets/profile.png";
+import spotify from "../../assets/Spotify-Logo.png";
+import qrCode from "../../assets/qr-code.png";
+import ticTacToe from "../../assets/tic-tac-toe.png";
+import randomQuoteMachine from "../../assets/random-quote-machine.png";
+import technicalDocumentation from "../../assets/technical-documentation-img.png";
 import ProjectCard from "../../common/ProjectCard";
 
 function Projects() {
@@ -11,28 +13,40 @@ function Projects() {
       <h1 className="sectionTitle">Projects</h1>
       <div className={styles.projectsContainer}>
         <ProjectCard
-          src={viberr}
-          link="https://github.com/Darasimi010"
-          h3="Viberr"
-          p="Streaming App"
+          src={portfolio}
+          link="https://github.com/Darasimi010/reactjs-portfolio"
+          h3="Portfolio"
+          p="Portfolio Website"
         />
         <ProjectCard
-          src={freshBurger}
-          link="https://github.com/Darasimi010"
-          h3="Fresh Burger"
-          p="Hamburger Restaurant"
+          src={spotify}
+          link="https://github.com/Darasimi010/spotify-clone"
+          h3="Spotify Clone"
+          p="Spotify Clone Website"
         />
         <ProjectCard
-          src={hipsster}
-          link="https://github.com/Darasimi010"
-          h3="Hipsster"
-          p="Glasses Shop"
+          src={qrCode}
+          link="https://github.com/Darasimi010/QR_code_page"
+          h3="QR-Code"
+          p="freeCodeCamp QR-Code"
         />
         <ProjectCard
-          src={fitlift}
-          link="https://github.com/Darasimi010"
-          h3="FitLift"
-          p="Fitness App"
+          src={ticTacToe}
+          link="https://github.com/Darasimi010/tic-tac-toe-game"
+          h3="Tic-Tac-Toe"
+          p="Tic-Tac-Toe Game"
+        />
+        <ProjectCard
+          src={randomQuoteMachine}
+          link="https://github.com/Darasimi010/freecodecamp-quote-machine-project"
+          h3="Random Quotes"
+          p="Random Quote Machine"
+        />
+        <ProjectCard
+          src={technicalDocumentation}
+          link="https://github.com/Darasimi010/fcc-technical-documentation-page"
+          h3="Technical Documentation"
+          p="Technical Documentation Page"
         />
       </div>
     </section>

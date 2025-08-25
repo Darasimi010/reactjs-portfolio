@@ -8,7 +8,7 @@ import githubLight from "../../assets/github-light.svg";
 import githubDark from "../../assets/github-dark.svg";
 import linkedinLight from "../../assets/linkedin-light.svg";
 import linkedinDark from "../../assets/linkedin-dark.svg";
-import CV from "../../assets/cv.pdf";
+import CV from "../../assets/Oluwadarasimi-CV.pdf";
 import { useTheme } from "../../common/ThemeContext";
 
 function Hero() {
@@ -36,23 +36,19 @@ function Hero() {
       </div>
       <div className={styles.info}>
         <h1>
-          'Darasimi <br /> Omojola
+          Oluwadarasimi <br /> Omojola
         </h1>
-        <h2>Frontend Developer</h2>
+        <h2>Web Developer</h2>
         <span>
-          <a href="http://twitter.com/" target="_blank">
-            <img src={twitterIcon} alt="Twitter icon" />
-          </a>
-          <a href="http://github.com/" target="_blank">
+          <a href="https://github.com/Darasimi010" target="_blank">
             <img src={githubIcon} alt="Github icon" />
           </a>
-          <a href="http://linkedin.com/" target="_blank">
+          <a href="www.linkedin.com/in/darasimi-omojola" target="_blank">
             <img src={linkedinIcon} alt="Linkedin icon" />
           </a>
         </span>
         <p className={styles.description}>
-          With a passion for developing modern React web apps for commercial
-          businesses.
+          With a passion for developing modern web apps for commercial businesses, I focus on building scalable, user-friendly, and performance-driven solutions that help brands thrive online.
         </p>
         <a href={CV} download>
           <button className="hover">Resume</button>

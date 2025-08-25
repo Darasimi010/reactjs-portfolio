@@ -29,6 +29,12 @@
   gap: 30px;
 }
 
+.projectsContainer img {
+  width: 100%;
+  max-width: 15rem;
+  height: 15rem;
+}
+
 @media (width >= 800px) {
   .projectsContainer {
     flex-direction: row;
