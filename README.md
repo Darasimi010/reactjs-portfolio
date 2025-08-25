@@ -56,6 +56,3 @@ This portfolio is deployed on Netlify. You can view it live at: https://reactpor
 ## Author
 
 * Darasimi010 - https://github.com/Darasimi010
-
-## Reference
-* www.youtube.com/@howtobecomeadeveloper
